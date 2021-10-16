@@ -1,0 +1,130 @@
+body {
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+
+}
+.navbar{
+    font-size: 2.9rem;
+    top: 0;
+    margin: 0;
+    position: relative;
+    display:flex;
+    align-items:center;
+    position: relative;
+    height: 12vh;
+    top: 0;
+    left: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar::before {
+    content: "";
+    background-color: rgb(77, 75, 75);
+    height: 100%;
+    WIDTH: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+#logo{
+    margin:1px 45px;
+}
+#logo img{
+    margin:1px 5px;
+    width: 70px;
+    height: 70px;
+}
+.navbar h3{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-family: 'Courgette', cursive;
+    margin: 0;
+    width:80%;
+
+}
+.form{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 3px auto; */
+    position:relative;
+
+}
+
+.form::before {
+    content: "";
+    background: url(images/nature4.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.7rem;
+    color: rgb(30, 30, 31);
+    font-family: 'Courgette', cursive;
+    /* height: 100%; */
+}
+
+.form input {
+    border-radius: 10px;
+    font-size: 1.4rem;
+    border: 2px solid black;
+}
+.form textarea {
+    border-radius: 10px;
+    font-size: 1.4rem;
+    border: 2px solid black;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+input[type="checkbox"] {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+.form input::placeholder {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: burlywood;            
+}
+input[type="reset"]:hover {
+    background-color: burlywood;            
+}
+input[type="submit"]:active {
+    border:4px solid green;            
+}
+input[type="reset"]:active {
+    border:4px solid green;            
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin: 0;
+}

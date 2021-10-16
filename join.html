@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Reg Form</title>
+    <link rel="stylesheet" href="join-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- We are making html form -->
+    <nav class="navbar">
+        <div id="logo">
+            <img src="images/logo.jpg" alt="MyWonderPark.com">
+        </div>
+        <H3>Membership Registration Form</H3>
+    </nav>
+    <section class="form">
+        <h5>Join our movement in a few minutes, right from comfort of your home. </h5>
+        <form action="">
+            <div>
+                First Name: <input type="text" name="fname">
+            </div><br>
+            <div>
+                Middle Name: <input type="text" name="mname" placeholder="">
+            </div><br>
+            <div>
+                Last Name: <input type="text" name="lname">
+            </div><br>
+            <div>
+                Gender: Male <input type="radio" name="userGender" id=""> Female <input type="radio" name="userGender"
+                    id=""> Other <input type="radio" name="userGender" id="">
+            </div><br>
+            <div>
+                Date of Birth: <input type="date" name="dob" id="">
+            </div><br>
+            <label for="raddress">Residential Address: </label>
+            <div>
+                <textarea name="r_address" id="raddress" cols="30" rows="5"></textarea>
+            </div><br>
+            <div>
+                Pincode: <input type="number" name="r_pincode" id="">
+            </div><br>
+            <div>
+                Email Id: <input type="email" name="userEmail" id="" placeholder="xyz@examples.com">
+            </div><br>
+            <div>
+                Aadhaar Number: <input type="number" name="aadhaar_number" id="" placeholder="xxxx-xxxx-xxxx">
+            </div><br>
+            <!-- <div>
+            PAN Number: <input type="number" name="pan_number" id="">
+        </div><br> -->
+            <div>
+                What type of membership do you need :<br> Student<input type="radio" name="acc_type" id="">
+                Researcher<input type="radio" name="acc_type" id="">
+                Other<input type="radio" name="acc_type" id="">
+            </div><br>
+            <label for="eligible">Are you above 18 years of age ? : </label>
+            <div>
+                <input type="checkbox" name="is_adult" id="eligible" checked>
+            </div><br>
+            <div>
+                Are you ? : Indian Citizen<input type="radio" name="is_citizen" id="" checked> NRI <input type="radio"
+                    name="is_citizen" id=""> Foreign National <input type="radio" name="is_citizen" id="">
+            </div><br>
+            <label for="paddress">Emergency Contact Details: <br></label>
+            <div>
+                <textarea name="p_address" id="paddress" cols="37" rows="6"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div><br>
+
+        </form>
+    </section>
+</body>
+
+</html>
